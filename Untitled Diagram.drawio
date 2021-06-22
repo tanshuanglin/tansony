@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-06-19T09:11:45.267Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" version="14.8.0" etag="_anxLvBob7gAbt381nC_" type="github"><diagram id="Tvu1q7hPqhanhSPyhdGE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-22T03:38:11.402Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="qwEnewMDcXMQd4vDyBS_" version="14.8.0" type="github">
+  <diagram id="Tvu1q7hPqhanhSPyhdGE" name="Page-1">
+    <mxGraphModel dx="946" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Hd_N66Ec7WaEtZcHtNf3-1" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="120" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Hd_N66Ec7WaEtZcHtNf3-2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="270" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Hd_N66Ec7WaEtZcHtNf3-4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="120" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Hd_N66Ec7WaEtZcHtNf3-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="270" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Hd_N66Ec7WaEtZcHtNf3-7" value="应用进程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Hd_N66Ec7WaEtZcHtNf3-8" value="内核" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="80" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Hd_N66Ec7WaEtZcHtNf3-9" value="建立sigIO信号&lt;br&gt;处理程序" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="120" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

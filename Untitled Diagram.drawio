@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-22T03:38:11.402Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="qwEnewMDcXMQd4vDyBS_" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-22T03:46:24.083Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="Vvw7be1TjrrhYHZgAkuA" version="14.8.0" type="github">
   <diagram id="Tvu1q7hPqhanhSPyhdGE" name="Page-1">
     <mxGraphModel dx="946" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,6 +24,66 @@
         </mxCell>
         <mxCell id="Hd_N66Ec7WaEtZcHtNf3-9" value="建立sigIO信号&lt;br&gt;处理程序" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="230" y="120" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hd_N66Ec7WaEtZcHtNf3-10" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="120" as="sourcePoint" />
+            <mxPoint x="470" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hd_N66Ec7WaEtZcHtNf3-11" value="系统调用sigaction" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Hd_N66Ec7WaEtZcHtNf3-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hd_N66Ec7WaEtZcHtNf3-12" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="135" as="sourcePoint" />
+            <mxPoint x="340" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hd_N66Ec7WaEtZcHtNf3-13" value="返回" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Hd_N66Ec7WaEtZcHtNf3-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hd_N66Ec7WaEtZcHtNf3-14" value="数据准备好" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="200" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Hd_N66Ec7WaEtZcHtNf3-15" value="信号处理程序" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="200" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Hd_N66Ec7WaEtZcHtNf3-16" value="拷贝数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="270" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Hd_N66Ec7WaEtZcHtNf3-17" value="拷贝完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="350" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Hd_N66Ec7WaEtZcHtNf3-18" value="revfrom" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="270" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Hd_N66Ec7WaEtZcHtNf3-19" value="数据报处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="235" y="350" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Hd_N66Ec7WaEtZcHtNf3-20" value="系统调用" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="279.5" as="sourcePoint" />
+            <mxPoint x="465" y="279.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hd_N66Ec7WaEtZcHtNf3-23" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="Hd_N66Ec7WaEtZcHtNf3-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="210" as="sourcePoint" />
+            <mxPoint x="460" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hd_N66Ec7WaEtZcHtNf3-24" value="递交sigio" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Hd_N66Ec7WaEtZcHtNf3-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hd_N66Ec7WaEtZcHtNf3-25" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="359.5" as="sourcePoint" />
+            <mxPoint x="320" y="359.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hd_N66Ec7WaEtZcHtNf3-26" value="返回成功指示" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Hd_N66Ec7WaEtZcHtNf3-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

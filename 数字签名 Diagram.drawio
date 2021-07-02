@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-02T00:53:31.460Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="PfHHmky0HqQ4uvocFVEc" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-02T00:54:07.043Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="F892KY3l8q-1B98h4Ba0" version="14.8.3" type="github">
   <diagram id="_6_i3_dyC2sQ74DqaxW7" name="Page-1">
     <mxGraphModel dx="946" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -27,7 +27,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QefDzYtXKN9kydE7Moo0-3" value="电子证书签发机构CA" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/home.svg;" vertex="1" parent="1">
+        <mxCell id="QefDzYtXKN9kydE7Moo0-3" value="电子证书认证机构CA" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/home.svg;" vertex="1" parent="1">
           <mxGeometry x="530" y="138.2" width="135" height="130.95" as="geometry" />
         </mxCell>
         <mxCell id="QefDzYtXKN9kydE7Moo0-4" value="1、服务端注册公钥" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/key.svg;" vertex="1" parent="1">
